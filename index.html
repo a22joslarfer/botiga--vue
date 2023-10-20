@@ -16,7 +16,7 @@
 <body>
 
     <script src="getProductos.js" type="module"></script>
-
+    <button @click="estatActiu('portada')">Inici</button>
     <div class="container">
         <div class="app" id="app">
 
@@ -53,6 +53,7 @@
                     
                     <p>Total: {{ total }}$</p>
                 </aside>
+                  <button @click="mostraDiv('portada')">Inici</button>
                 <footer class="footer mt-5"></footer>
             </div>
 
